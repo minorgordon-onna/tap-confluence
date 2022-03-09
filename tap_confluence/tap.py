@@ -39,3 +39,7 @@ class TapConfluence(Tap):
 
 
 cli = TapConfluence.cli
+
+
+if __name__ == "__main__":
+    cli()
