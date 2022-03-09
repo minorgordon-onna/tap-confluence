@@ -132,11 +132,11 @@ class BaseContentStream(TapConfluenceStream, metaclass=abc.ABCMeta):
         return result
 
 
-class BlogpostsStream(BaseContentStream):
+class PagesStream(BaseContentStream):
     name = "pages"
     content_type = "page"
 
 
-class PagesStream(BaseContentStream):
+class BlogpostsStream(BaseContentStream):
     name = "blogposts"
     content_type = "blogpost"
