@@ -107,6 +107,7 @@ class BaseContentStream(TapConfluenceStream, metaclass=abc.ABCMeta):
     schema_filepath = SCHEMAS_DIR / "content.json"
 
     expand = [
+        "body.storage",
         "history",
         "history.lastUpdated",
         "history.previousVersion",

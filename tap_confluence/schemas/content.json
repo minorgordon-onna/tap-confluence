@@ -105,6 +105,9 @@
     "id": {
       "type": "string"
     },
+    "body": {
+      "type": "string"
+    },
     "title": {
       "type": "string"
     },
